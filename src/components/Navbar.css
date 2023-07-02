@@ -1,0 +1,142 @@
+
+
+.navbar-custom {
+    padding: 15px 0;
+    background-color: black;
+    /* position: -webkit-sticky; */
+    align-items: center;
+    margin-left: 15%;
+
+    
+  }
+
+.stop{
+  /* position: -webkit-sticky !important; */
+  background-color: black;
+}
+ 
+  
+  .nav-link {
+    font-size: 14px;
+    margin-left: 20px;
+    color: whitesmoke;
+    background-color: black;
+
+
+  }
+  .nav-link:hover {
+    background-color: orange;
+    /* color: #94e4ed; */
+    
+  }
+  
+  .nav-dropdown {
+    margin-left: 20px;
+    background-color: black;
+
+
+  }
+  
+  .dropdown-item {
+    font-size: 16px;
+    color: white !important;
+    background-color: black;
+  }
+  .dropdown-item:hover {
+    background-color: orange;
+    color: #f9fafa;
+  }
+  
+  
+  @media (max-width: 991px) {
+    .navbar-brand {
+      font-size: 24px;
+    }
+    
+    .nav-link {
+      font-size: 16px;
+      margin-left: 0;
+      margin-bottom: 10px;
+      display: block;
+      text-align: center;
+      background-color: black;
+
+    }
+    
+    
+    .nav-dropdown {
+      margin-left: 0;
+      background-color: black;
+
+
+    }
+    .NavDropdown{
+      background-color: black;
+    }
+    
+  }
+  
+
+  .navbar-custom {
+    padding: 15px 0;
+    background-color: black;
+    margin-left: 15%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-link {
+    font-size: 14px;
+    margin-left: 20px;
+    color: whitesmoke;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    background-color: orange;
+    color: #f7f8f8;
+    transform: scale(1.1);
+  }
+  
+  .nav-dropdown {
+    margin-left: 20px;
+    background-color: black;
+  }
+  
+  .dropdown-item {
+    font-size: 16px;
+    color: white !important;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .dropdown-item:hover {
+    background-color: orange;
+    color: #f8fafb;
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-custom {
+      margin-left: 0;
+    }
+  
+    .nav-link {
+      font-size: 16px;
+      margin-left: 0;
+      margin-bottom: 10px;
+      display: block;
+      text-align: center;
+      background-color: black;
+    }
+  
+    .nav-dropdown {
+      margin-left: 0;
+      background-color: black;
+    }
+  
+    .NavDropdown {
+      background-color: black;
+    }
+  }
+  
