@@ -161,11 +161,11 @@ img{ */
   -webkit-text-stroke: 1px white;
   -webkit-text-fill-color: green;
   margin-bottom: 1rem;
+  margin-left: 6%;
 }
 
 .bloc {
-  color: #ff4e00;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  
   font-weight: bold;
   font-size: 1.5rem;
   background-color: white;
@@ -187,7 +187,6 @@ img{ */
   font-weight: bold;
   font-size: 1.1rem;
   text-align: center;
-  margin-bottom: 1rem;
 }
 
 .con {
@@ -195,7 +194,7 @@ img{ */
   font-weight: bold;
   font-size: 1rem;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-top: 0%;
 }
 
 @media screen and (max-width: 768px) {
@@ -672,45 +671,52 @@ button:hover {
   max-width: 100%;
 }
 
-.inn{
-  width: 250px;
+.inn {
+  width: 300px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   height: auto;
   display: inline-block;
-  margin-right: 80px;
-  margin-left: 80px;
+  margin: 4% auto;
   background-color: whitesmoke;
   border-radius: 10px;
-  align-self: center !important;
-  align-items: center !important;
-  align-content: center;
-
 }
 
-.down{
-  position: relative;
-  display: inline-block;
-  margin-left:5px;
-  margin-bottom: 20px;
-}
-.dow{
-  margin-left:-110px;
-
-
-}
-.des{
+.testimonial {
+  display: block;
   text-align: center;
-  margin-top:20px;
-}
-.desc{
-  /* text-align: center; */
-  margin-left: 12% !important;
-  margin-right:12%;
-
 }
 
-/* Three columns side by side */
+.des {
+  margin-top: 20px;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.author-info {
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+}
+
+.author-image {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: 0;
+}
+
+.author-name {
+  font-family: "Helvetica";
+  font-size: 17px;
+}
+
+.author-title {
+  font-family: "Helvetica";
+  font-size: 13px;
+  color: grey;
+}
+
 .column {
   float: left;
   width: 25%;
@@ -718,25 +724,18 @@ button:hover {
   padding: 0 8px;
 }
 
-/* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
     display: block;
   }
 }
-
-/* Add some shadows to create a card effect */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-
-/* Some left and right padding inside the container */
 .container {
   padding: 0 16px;
 }
-
-/* Clear floats */
 .container::after, .row::after {
   content: "";
   clear: both;
