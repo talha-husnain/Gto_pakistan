@@ -4,6 +4,7 @@ import Head from './Head.js';
 import Carousel from 'react-bootstrap/Carousel';
 import Footer from './Footer';
 import { Link } from 'react-router-dom'
+import BoxComponent from './components/box';
 import './response.css';
 
 
@@ -75,100 +76,63 @@ export const Home = () => {
 </div>
 
     <div className="box12">
-      <span>
-        <div className="box" style={{marginLeft: "4%"}}>
-          <span>
-        <h1 className= "min" style={{backgroundColor: "black", color: "white", fontSize: "30px"}}> Vision</h1>
-        <p style={{marginLeft:"3%", marginRight:"3%"}}>A society where everyone enjoys equal access to justice and development opportunities A society where everyone enjoys equal access to justice and development opportunities</p>
-        </span>
-        
-        <button type="button" class="btn btn-primary btn-sm" style={{marginBottom: "10px"}}><Link to="/Vision" style={{color: "white", textDecoration: 'none'}}>Learn More </Link></button>
-        </div>
-      </span>
-      <span>
-        <div className="box" style={{width: "33%", marginRight: "4%"}}>
-          <span>
-        <h1 className= "min" style={{backgroundColor: "black", color: "white", fontSize: "30px"}} > Mission</h1>
-        <p style={{marginLeft:"5%", marginRight:"5%"}}>Strive to forge Rule of Law, good governance and protect rights of citizens particularly women, children, persons with disability, trans-community and religious minorities</p>
-        </span>
-        <button type="button" class="btn btn-primary btn-sm" style={{marginBottom: "10px"}}><Link to="/Mission" style={{color: "white", textDecoration: 'none'}}>Learn More </Link></button>
-
-        </div>
-        </span>
+      <BoxComponent
+      title = "Vision"
+      text = "A society where everyone enjoys equal access to justice and equal opportunities A society where everyone enjoys equal access to justice and development opportunities"
+      backgroundColor = "black"
+      link = "/Vision"
+      />
+      <BoxComponent
+      title = "Mission"
+      text = "A society where everyone enjoys equal access to justice and development opportunities A society where everyone enjoys equal access to justice and development opportunities"
+      backgroundColor = "black"
+      link={"/Mission"}
+      />
     </div>
     <h1 className= "min" style={{backgroundColor: "orange", color: "white", textAlign:"center"}}>Thematic Areas</h1>
     <div className="box12">
-    <span>
-        <div className="box" style={{borderBottomLeftRadius: "0px", borderBottomRightRadius: "0px", borderTopLeftRadius: "0px", borderTopRightRadius: "0px", marginLeft: "5%"}}>
-          <span>
-        <h1 className= "min" style={{backgroundColor: "black", color: "white", fontSize: "25px"}}> Rules of Law</h1>
-        <p className = "adj" style={{ textAlign:"center",marginLeft:"5%", marginRight:"5%"}}>A society where everyone enjoys equal access to justice and equal opportunities A society where everyone enjoys equal access to justice and development opportunities</p>
-        </span>
-        <button type="button" class="btn btn-primary btn-sm" style={{marginBottom: "10px"}}><Link to="/Rule" style={{color: "white", textDecoration: 'none'}}>Learn More </Link></button>
-
-        </div>
-      </span>
-      <span>
-        <div className="box" style={{borderBottomLeftRadius: "0px", borderBottomRightRadius: "0px", borderTopLeftRadius: "0px", borderTopRightRadius: "0px",marginRight: "5%"}}>
-          <span>
-        <h1 className= "min" style={{backgroundColor: "black", color: "white", fontSize: "25px"}}> Human Rights</h1>
-        <p className = "adj" style={{ textAlign:"center",marginLeft:"3%", marginRight:"3%"}}>A society where everyone enjoys equal access to justice and development opportunities A society where everyone enjoys equal access to justice and development opportunities</p>
-        </span>
-        <button type="button" class="btn btn-primary btn-sm" style={{marginBottom: "10px"}}><Link to="/Right" style={{color: "white", textDecoration: 'none'}}>Learn More </Link></button>
-
-        </div>
-      </span>
-      <span>
-        <div className="box" style={{borderBottomLeftRadius: "0px", borderBottomRightRadius: "0px", borderTopLeftRadius: "0px", borderTopRightRadius: "0px",marginLeft: "5%"}}>
-          <span>
-        <h1 className= "min" style={{backgroundColor: "black", color: "white", fontSize: "25px"}}>Health </h1>
-        <p className = "adj" style={{ textAlign:"center",marginLeft:"3%", marginRight:"3%"}}>A society where everyone enjoys equal access to justice and development opportunities A society where everyone enjoys equal access to justice and development opportunities</p>
-        </span>
-        <button type="button" class="btn btn-primary btn-sm" style={{marginBottom: "10px"}}><Link to="/Health" style={{color: "white", textDecoration: 'none'}}>Learn More </Link></button>
-
-        </div>
-      </span>
-      <span>
-        <div className="box" style={{borderBottomLeftRadius: "0px", borderBottomRightRadius: "0px", borderTopLeftRadius: "0px", borderTopRightRadius: "0px", marginRight: "5%"}}>
-          <span>
-        <h1 className= "min" style={{backgroundColor: " black", color: "white", fontSize: "25px"}}>Disaster Management</h1>
-        <p className = "adj" style={{ textAlign:"center",marginLeft:"3%", marginRight:"3%"}}>A society where everyone enjoys equal access to justice and development opportunities A society where everyone enjoys equal access to justice and development opportunities</p>
-        </span>
-        <button type="button" class="btn btn-primary btn-sm" style={{marginBottom: "10px"}}><Link to="/Diasaster" style={{color: "white", textDecoration: 'none'}}>Learn More </Link></button>
-
-        </div>
-      </span>
-    
-      <span>
-        <div className="box" style={{borderBottomLeftRadius: "0px", borderBottomRightRadius: "0px", borderTopLeftRadius: "0px", borderTopRightRadius: "0px",marginLeft: "5%"}}>
-          <span>
-        <h1 className= "min" style={{backgroundColor: "black", color: "white", fontSize: "25px"}}> Environment</h1>
-        <p className = "adj" style={{ textAlign:"center",marginLeft:"3%", marginRight:"3%"}}>A society where everyone enjoys equal access to justice and development opportunities A society where everyone enjoys equal access to justice and development opportunities</p>
-        </span>
-        <button type="button" class="btn btn-primary btn-sm" style={{marginBottom: "10px"}}><Link to="/Envirn" style={{color: "white", textDecoration: 'none'}}>Learn More </Link></button>
-
-        </div>
-      </span>
-      <span>
-        <div className="box" style={{borderBottomLeftRadius: "0px", borderBottomRightRadius: "0px", borderTopLeftRadius: "0px", borderTopRightRadius: "0px",marginRight: "5%"}}>
-          <span>
-        <h1 className= "min" style={{backgroundColor: "black", color: "white", fontSize: "25px"}}> Women Rights</h1>
-        <p className = "adj" style={{ textAlign:"center",marginLeft:"3%", marginRight:"3%"}}>A society where everyone enjoys equal access to justice and development opportunities A society where everyone enjoys equal access to justice and development opportunities</p>
-        </span>
-        <button type="button" class="btn btn-primary btn-sm" style={{marginBottom: "10px"}}><Link to="/Women" style={{color: "white", textDecoration: 'none'}}>Learn More </Link></button>
-
-        </div>
-      </span>
-      <span>
-        <div className="box" style={{borderBottomLeftRadius: "0px", borderBottomRightRadius: "0px", borderTopLeftRadius: "0px", borderTopRightRadius: "0px",marginLeft: "5%"}}>
-          <span>
-        <h1 className= "min" style={{backgroundColor: "black", color: "white", fontSize: "25px"}}> Education</h1>
-        <p className = "adj" style={{ textAlign:"center",marginLeft:"3%", marginRight:"3%"}}>A society where everyone enjoys equal access to justice and development opportunities A society where everyone enjoys equal access to justice and development opportunities</p>
-        </span>
-        <button type="button" class="btn btn-primary btn-sm" style={{marginBottom: "10px"}}><Link to="/Education" style={{color: "white", textDecoration: 'none'}}>Learn More </Link></button>
-
-        </div>
-      </span>
+      <BoxComponent
+      title = "Rule of Law"
+      text = "A society where everyone enjoys equal access to justice and equal opportunities A society where everyone enjoys equal access to justice and development opportunities"
+      backgroundColor = "black"
+      link = "/Rule"
+      />
+      <BoxComponent
+      title = "Human Rights"
+      text = "A society where everyone enjoys equal access to justice and development opportunities A society where everyone enjoys equal access to justice and development opportunities"
+      backgroundColor = "black"
+      link={"/Right"}
+      />
+      <BoxComponent 
+      title = "Health "
+      text = "A society where everyone enjoys equal access to justice and development opportunities A society where everyone enjoys equal access to justice and development opportunities"
+      backgroundColor = "black"
+      link = "/Child"
+      />
+<BoxComponent
+      title = "Disaster Management"
+      text = "A society where everyone enjoys equal access to justice and development opportunities A society where everyone enjoys equal access to justice and development opportunities"
+      backgroundColor = "black"
+      link = "/Diasaster"
+      />
+    <BoxComponent
+      title = "Environment"
+      text = "A society where everyone enjoys equal access to justice and development opportunities A society where everyone enjoys equal access to justice and development opportunities"
+      backgroundColor = "black"
+      link = "/Envirn"
+      />
+      <BoxComponent
+      title = "Women Rights"
+      text = "A society where everyone enjoys equal access to justice and development opportunities A society where everyone enjoys equal access to justice and development opportunities"
+      backgroundColor = "black"
+      link = "/Women"
+      />
+      <BoxComponent
+      title = "Education"
+      text = "A society where everyone enjoys equal access to justice and development opportunities A society where everyone enjoys equal access to justice and development opportunities"
+      backgroundColor = "black"
+      link = "/Education"
+      />
     </div>
     <h1 className= "min" style={{textAlign:"center"}}> Our Partners in Development</h1>
 <div className="par"  style={{alignItems:"center"}}>

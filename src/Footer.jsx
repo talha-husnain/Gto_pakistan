@@ -1,9 +1,9 @@
 import React from 'react'
 import "./fo.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faLocation } from '@fortawesome/free-solid-svg-icons';
-import { faPhoneFlip } from '@fortawesome/free-solid-svg-icons'
+// import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+// import { faLocation } from '@fortawesome/free-solid-svg-icons';
+// import { faPhoneFlip } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -36,7 +36,7 @@ const Footer = () => {
 
 			</div>
 
-			<div className="footer-center">
+			{/* <div className="footer-center">
 
 				<div>
 					<i className="fa fa-map-marker"></i>
@@ -60,7 +60,7 @@ const Footer = () => {
 					<p><a href="mailto:support@company.com">info@gtopakistan.org</a></p>
 				</div>
 
-			</div>
+			</div> */}
 
 			<div className="footer-right">
 
