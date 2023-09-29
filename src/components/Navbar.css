@@ -6,6 +6,8 @@
     /* position: -webkit-sticky; */
     align-items: center;
     margin-left: 15%;
+    /* overflow:auto; */
+    overflow: visible;
 
     
   }
@@ -13,6 +15,8 @@
 .stop{
   /* position: -webkit-sticky !important; */
   background-color: black;
+overflow: visible;
+
 }
  
   
@@ -20,12 +24,16 @@
     font-size: 14px;
     margin-left: 20px;
     color: whitesmoke;
+overflow: visible;
+
     background-color: black;
 
 
   }
   .nav-link:hover {
     background-color: orange;
+
+
     /* color: #94e4ed; */
     
   }
@@ -34,23 +42,33 @@
     margin-left: 20px;
     background-color: black;
 
+    overflow: visible;
+
 
   }
   
   .dropdown-item {
     font-size: 16px;
     color: white !important;
+    overflow: visible;
+
+
+
     background-color: black;
   }
   .dropdown-item:hover {
     background-color: orange;
     color: #f9fafa;
+
+
   }
   
   
   @media (max-width: 991px) {
     .navbar-brand {
       font-size: 24px;
+  
+
     }
     
     .nav-link {
@@ -59,6 +77,8 @@
       margin-bottom: 10px;
       display: block;
       text-align: center;
+  
+
       background-color: black;
 
     }
@@ -67,11 +87,15 @@
     .nav-dropdown {
       margin-left: 0;
       background-color: black;
+  
+
 
 
     }
     .NavDropdown{
       background-color: black;
+  
+
     }
     
   }
@@ -82,6 +106,8 @@
     background-color: black;
     margin-left: 15%;
     transition: all 0.3s ease-in-out;
+
+
   }
   
   .nav-link {
@@ -90,12 +116,16 @@
     color: whitesmoke;
     background-color: black;
     transition: all 0.3s ease-in-out;
+
+
   }
   
   .nav-link:hover {
     background-color: orange;
     color: #f7f8f8;
     transform: scale(1.1);
+
+
   }
   
   .nav-dropdown {

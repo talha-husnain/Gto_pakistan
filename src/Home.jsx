@@ -3,7 +3,6 @@ import './App.css';
 import Head from './Head.js';
 import Carousel from 'react-bootstrap/Carousel';
 import Footer from './Footer';
-import { Link } from 'react-router-dom'
 import BoxComponent from './components/box';
 import './response.css';
 
@@ -78,7 +77,7 @@ export const Home = () => {
     <div className="box12">
       <BoxComponent
       title = "Vision"
-      text = "Our vision is to promote the Rule of Law, good governance, and the protection of citizens' rights, with a particular emphasis on vulnerable groups."
+      text = "Our vision is to promote the Rule of Law, good governance, and the protection of citizens' rights, with a particular emphasis on the  vulnerable groups in our society here."
       backgroundColor = "black"
       link = "/Vision"
       />
@@ -93,7 +92,7 @@ export const Home = () => {
     <div className="box12">
       <BoxComponent
       title = "Rule of Law"
-      text = "In our pursuit of the Rule of Law, we envision a society where every individual has equal access to justice and opportunities for development for everyone."
+      text = "In our pursuit of the Rule of Law, we envision a society where every individual has equal access to justice and opportunities for development."
       backgroundColor = "black"
       link = "/Rule"
       />
@@ -105,7 +104,7 @@ export const Home = () => {
       />
       <BoxComponent 
       title = "Health "
-      text = "In the realm of Health, we strive for a society where everyone enjoys equal access to justice and development opportunities.      "
+      text = "In the realm of Health, we strive for a society where everyone enjoys equal access to justice and development opportunities avaible to them."      
       backgroundColor = "black"
       link = "/Child"
       />
